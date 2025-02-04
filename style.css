@@ -1,0 +1,102 @@
+/* Resetowanie domyślnych styli */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Nagłówek */
+header {
+    background-color: #02a962;
+    padding: 15px;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Sekcja informacji o płatności */
+.info-box {
+    background-color: #d8f3dc;
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Sekcja dostawy */
+.delivery-details {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.delivery-details h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.delivery-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Sekcja potwierdzenia */
+.confirmation {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.code-box {
+    background-color: #02a962;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width: 200px;
+}
+
+/* Lista instrukcji */
+.confirmation ol {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.confirmation ol li {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Stopka */
+footer {
+    background-color: #ffcc00;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
